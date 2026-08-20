@@ -405,8 +405,8 @@ a:focus-visible,button:focus-visible{outline:2px solid var(--signal);outline-off
         });
       }
     }
-    sizeCanvas(); spawn(innerWidth < 760 ? 34 : 64);
-    addEventListener('resize', function(){ sizeCanvas(); spawn(innerWidth < 760 ? 34 : 64); });
+    sizeCanvas(); spawn(innerWidth < 760 ? 102 : 192);
+    addEventListener('resize', function(){ sizeCanvas(); spawn(innerWidth < 760 ? 102 : 192); });
     var last = 0;
     function tick(now){
       var dt = Math.min((now - last) / 1000, 0.05); last = now;
